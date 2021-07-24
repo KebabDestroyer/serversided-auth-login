@@ -11,7 +11,7 @@ it could look like this https://website.com/APIClient.php?api=%@ in the .mm file
 ```obj-c
 #import "APIClient.h"
 
-somfile.cpp, tweak.xm, etc
+//somfile.cpp, tweak.xm, etc
 void testFuncion(){
    //free or paid 
    [APIClient paid:^{
