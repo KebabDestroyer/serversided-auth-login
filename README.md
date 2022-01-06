@@ -22,8 +22,15 @@ void testFuncion(){
 }
 ```
 
+# Updates
+- Added string encryption macro
+- Added a lil obfuscation
+- sexy Alert views
+- More secure checks
+- Days left on blacklisting and subscription 
+- Example tweak.xm
+
 # To do objective-c
 - add data base support
 - ??? You tell me I improve :)
-- Add example tweak.xm
-- add popup view for theee noobies
+
