@@ -35,4 +35,4 @@ void testFuncion(){
 - ??? You tell me I improve :)
 
 # Note
-- It is not impossible to crack thus auth, just like any other auth. use at your own risk (:
+- It is not impossible to crack this auth, just like any other auth. use at your own risk (:
