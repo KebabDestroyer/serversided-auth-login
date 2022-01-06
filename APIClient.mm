@@ -60,7 +60,7 @@ pasteboard.string = uudid;
          expired.cornerRadius = 10.0f;
          expired.backgroundViewColor = [UIColor colorWithRed:0.04 green:0.16 blue:0.24 alpha:1.0];
         
-      [expired showError:NSSENCRYPT("Access Denied!") subTitle:NSSENCRYPT("\nApp will crash now. \nBuy access on : \nDiscord : whatisthat#6782") closeButtonTitle:nil duration:999999999.0]; //alert view example for non-existent/expired user
+      [expired showError:NSSENCRYPT("Access Denied!") subTitle:NSSENCRYPT("\nApp will crash now. \nBuy access on : \nDiscord : whatisthat#9292") closeButtonTitle:nil duration:999999999.0]; //alert view example for non-existent/expired user
                  timer(4) {
                 exit(0); 
 				});
@@ -80,7 +80,7 @@ pasteboard.string = uudid;
          blacklisted.cornerRadius = 10.0f;
          blacklisted.backgroundViewColor = [UIColor colorWithRed:0.04 green:0.16 blue:0.24 alpha:1.0];
 
-         NSString *subTitleForBlacklisted = [NSString stringWithFormat:NSSENCRYPT("\nApp will crash now. \nYou were blacklisted for violating the rules. \nMade by : \nDiscord : whatisthat#6782 \nBlacklisting expiring in : %d days!"), days]; //showing the days until their blacklisting ends
+         NSString *subTitleForBlacklisted = [NSString stringWithFormat:NSSENCRYPT("\nApp will crash now. \nYou were blacklisted for violating the rules. \nMade by : \nDiscord : whatisthat#9292 \nBlacklisting expiring in : %d days!"), days]; //showing the days until their blacklisting ends
 
       [blacklisted showError:NSSENCRYPT("You Were Blacklisted!") subTitle:subTitleForBlacklisted closeButtonTitle:nil duration:999999999.0]; //alert view example for a blacklisted user
 
@@ -104,7 +104,7 @@ pasteboard.string = uudid;
       success.cornerRadius = 10.0f;
       success.backgroundViewColor = [UIColor colorWithRed:0.04 green:0.16 blue:0.24 alpha:1.0];
        
-       NSString *subTitleForSuccess = [NSString stringWithFormat:NSSENCRYPT("\nTweak will load now. \nMade by : \nDiscord : whatisthat#6782 \nSubscription expiring in : %d days!"), days]; //days left of subscription
+       NSString *subTitleForSuccess = [NSString stringWithFormat:NSSENCRYPT("\nTweak will load now. \nMade by : \nDiscord : whatisthat#9292 \nSubscription expiring in : %d days!"), days]; //days left of subscription
 
       [success showSuccess:NSSENCRYPT("Access Granted!") subTitle:subTitleForSuccess closeButtonTitle:nil duration:4.0]; //alert view example for an existing user with a current subscription 
                 timer(4) {
