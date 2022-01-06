@@ -34,3 +34,5 @@ void testFuncion(){
 - add data base support
 - ??? You tell me I improve :)
 
+# Note
+- It is not impossible to crack thus auth, just like any other auth. use at your own risk (:
