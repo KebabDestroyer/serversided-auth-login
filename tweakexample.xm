@@ -8,8 +8,8 @@ static void didFinishLaunching(CFNotificationCenterRef center, void *observer, C
  
      timer(5) {
   [APIClient paid:^{
-       //load menu in this function 
-       setupMenu(); 
+       
+       setupMenu(); //function to setup your tweak, this is for teds template so you can change it
        
    }] ;
 
