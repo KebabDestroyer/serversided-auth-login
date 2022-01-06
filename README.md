@@ -22,7 +22,7 @@ void testFuncion(){
 }
 ```
 
-# Updates
+# Updates 1/6/22
 - Added string encryption macro
 - Added a lil obfuscation
 - sexy Alert views
