@@ -5,7 +5,7 @@
 #import "APIClient.h"
 
 //This is in settings. Privacy/Advertising/Limit Ad Tracking
-//we will use this foruuid, you could use an other method like vendor id or a third party api if you want
+//we will use this for uuid, you could use an other method like vendor id or a third party api if you want
 #import <AdSupport/ASIdentifierManager.h>
 
 //SCLAlertView framework for nice alert views!
